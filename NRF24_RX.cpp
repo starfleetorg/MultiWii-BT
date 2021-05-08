@@ -19,8 +19,7 @@ RF24Data MyData;
 
 int step = 25;
 
-void resetRF24Data() 
-{ //The defualt value of each of the channels
+void resetRF24Data() { //The defualt value of each of the channels
   MyData.throttle = 0;
   MyData.yaw = 127;
   MyData.pitch = 127;
