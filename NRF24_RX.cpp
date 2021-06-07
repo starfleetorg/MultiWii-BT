@@ -25,7 +25,6 @@ void resetRF24Data() { //The defualt value of each of the channels
   MyData.pitch = 127;
   MyData.roll = 127;
 
-  //Same as the transmitter code
   MyData.AUX1 = 0;
   MyData.AUX2 = 0;
   MyData.switches = 0;
